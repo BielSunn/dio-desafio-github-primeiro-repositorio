@@ -1,0 +1,36 @@
+GUI X CLI
+-git é usado por linha de comandos (CLI)
+
+
+DIR -> ver docs na pasta
+mkdir -> criar pasta
+
+
+-ls: mostra os documentos que estao na pasta
+-ls -a: mostra os documentos ocultos que estao na pasta
+-cd: para mudar de pasta
+-ctrl l: limpar
+
+
+-git init: inicia repósitorio git
+-git add nomeArquivo
+-git add *: add mudanças (todas mudanças feitas para stage)
+-git add.
+-git commit -m "texto do commit"
+
+git config --global user.email "email" : configura email
+git config --global --unset user.email
+git config --global user.name "nome"   : configura nome
+git config --global --unset user.name
+
+git status
+
+git remote add origin
+git remote -v : lista de repositórios remotos salvos
+
+git push origin master : enviar para o repositório remoto
+git push
+git pull : trazer o que está no repositório
+
+git clone "url"
+-quando clona já vem o projeto com repositório(pasta .git)
